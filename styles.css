@@ -3,7 +3,7 @@
     --very-dark-mangenta: hsl(300, 43%, 22%);
     --soft-pink: hsl(333, 80%, 67%);
     --dark-grayish-mangenta: hsl(303, 10%, 53%);
-    --light-grayish-mangena: hsl(300, 24%, 96%);
+    --light-grayish-mangenta: hsl(300, 24%, 96%);
     --white: hsl(0, 0%, 100%);
 }
 
@@ -23,8 +23,8 @@ body{
 }
 
 main{
-    width: 90%;
-    margin: 7rem auto;
+    width: 87%;
+    margin: 10rem auto;
     font-family: "League Spartan", sans-serif;
 }
 
@@ -33,8 +33,9 @@ h1{
     font-weight: 700;
     font-size: 4rem;
     line-height: 3.2rem;
-    margin: 0 4rem 3rem 4rem;
+    margin: 0 4rem 2.4rem 4rem;
     text-align: center;
+    letter-spacing: -0.1rem;
 }
 
 p{
@@ -43,7 +44,7 @@ p{
     font-weight: 500;
     line-height: 2.4rem;
     text-align: center;
-    margin-bottom: 4rem;
+    margin-bottom: 4.4rem;
 }
 
 .rating-container{
@@ -51,32 +52,32 @@ p{
 }
 
 .rating{
-    background-color: var(--light-grayish-mangena);
-    font-size: 1.8rem;
+    background-color: var(--light-grayish-mangenta);
+    font-size: 1.7rem;
     font-weight: 700;
     border-radius: 10px;
     color: var(--very-dark-mangenta);
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 1rem 0;
+    padding: 1.4rem 0;
     margin-bottom: 2rem;
 }
 
 .stars{
     display: flex;
     justify-content: space-between;
-    width: 13rem;
-    margin-bottom: 1rem;;
+    width: 12rem;
+    margin-bottom: 1.4rem;;
 }
 
 .testimonial{
     background-color: var(--very-dark-mangenta);
     color: var(--white);
-    padding: 4rem 3rem;
+    padding: 3.8rem 3rem;
     border-radius: 10px;
     font-size: 1.6rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1.6rem;
 }
 
 .reviewer{
@@ -88,7 +89,7 @@ p{
 
 .reviewer > img{
     border-radius: 50%;
-    width: 4.5rem;
+    width: 4.2rem;
     margin-right: 2rem;
 }
 
@@ -100,11 +101,16 @@ p{
 }
 
 blockquote{
-    line-height: 2rem;
+    line-height: 2.2rem;
+    font-size: 1.5rem;
 }
 
 .buyer-text{
     color: var(--soft-pink);
+}
+
+footer{
+    margin-bottom: 1rem;
 }
 
 .attribution {
