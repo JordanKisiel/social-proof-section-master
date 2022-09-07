@@ -20,7 +20,7 @@ html{
 
 body{
     background-image: url("images/bg-pattern-top-mobile.svg"), url("images/bg-pattern-bottom-mobile.svg");
-    background-position: left top, left bottom;
+    background-position: left top, right bottom;
     background-repeat: no-repeat;
     background-color: var(--white);
 }
@@ -128,6 +128,13 @@ footer{
 
 /* desktop styles */
 @media only screen and (min-width: 1440px){
+    body{
+        background-image: url("images/bg-pattern-top-desktop.svg"), url("images/bg-pattern-bottom-desktop.svg");
+        background-repeat: no-repeat;
+        background-color: var(--white);
+        min-height: 90rem;
+    }
+
     main{
         display: grid;
         grid-auto-columns: 1fr;
@@ -135,9 +142,10 @@ footer{
         grid-template-areas:
             'one two'
             'three three';
-        width: 70%;
-        row-gap: 5rem;
-        margin-bottom: 20rem;
+        width: 77%;
+        max-width: 111rem;
+        row-gap: 3rem;
+        margin-bottom: 18rem;
     }
 
     header{
@@ -157,8 +165,8 @@ footer{
     }
 
     h1{
-        font-size: 6rem;
-        line-height: 5rem;
+        font-size: 5.3rem;
+        line-height: 4.8rem;
         width: 40rem;
         margin: 0 0 3rem 0;
         text-align: left;
@@ -215,14 +223,18 @@ footer{
 
     .test-container div:nth-child(2){
         align-self: center;
+        margin-top: -3rem;
     }
 
     .test-container div:nth-child(3){
         align-self: flex-end;
+        margin-bottom: 3rem;
     }
 
     footer{
-        position: relative;
+        position:absolute;
         bottom: 0;
+        width: 100%;
+        margin-bottom: 1rem;
     }
 }
